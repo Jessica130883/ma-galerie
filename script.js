@@ -1,5 +1,5 @@
 window.onload = () => {
-    let filters = document.querySelectorAll("#filters div");
+    let filters = document.querySelectorAll("#filters button");
     
     for(let filter of filters){
         filter.addEventListener("click", function(){

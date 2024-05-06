@@ -6,8 +6,9 @@ html, body {
 #filters{
     display: flex;
     gap: 10px;
+    margin-left: 60px;
 }
-#filters div{
+#filters button{
     margin-bottom: 10px;
     border: 1px solid grey;
     border-radius: 25px;
@@ -30,12 +31,18 @@ html, body {
     padding: 0;
     transition: width .3s;
 }
+.title-gallery {
+    text-align: center;
+}
 
 
 @media screen and (max-width:648px){
     .picture {
         height: 150px;
         width: 400px;
+    }
+    #filters {
+        text-align: center;
     }
 }
 @media screen and (min-width: 649px){
