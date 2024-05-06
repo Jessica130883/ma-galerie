@@ -4,7 +4,7 @@ window.onload = () => {
     for(let filter of filters){
         filter.addEventListener("click", function(){
             let tag = this.id;
-
+            
            
         });
     }
