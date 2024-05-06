@@ -7,6 +7,7 @@ html, body {
     display: flex;
     gap: 10px;
     margin-left: 60px;
+    
 }
 #filters button{
     margin-bottom: 10px;
@@ -33,6 +34,7 @@ html, body {
 }
 .title-gallery {
     text-align: center;
+    color: rgb(181, 226, 226);;
 }
 
 
@@ -44,11 +46,23 @@ html, body {
     #filters {
         text-align: center;
     }
+    .filter-btn {
+        width: 70px;
+        padding: 3px;
+        background-color: rgb(181, 226, 226);
+        
+    }
 }
 @media screen and (min-width: 649px){
     .picture{
         height: 400px;
         width: 1000px;
+    }
+    .filter-btn {
+        width: 75px;
+        padding: 3px;
+        background-color: rgb(181, 226, 226);
+        
     }
 }
 
